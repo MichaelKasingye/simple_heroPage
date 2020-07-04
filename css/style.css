@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;    
+}
+.hero{
+  background-image: url(../img/apple-devices-books-business-coffee-572056.jpg);  
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 1.6;
+  font-size: 17px;
+   margin: 0px;
+  text-align: center;
+  
+}
+.hero h1{
+    padding: 0px;
+    width: 100vw;
+     background-color: rgba(0,0,0,0.4);
+}
+.hero p{
+    width: 100vw;
+    padding: 0 5px 0 5px;
+    background-color: rgba(0,0,0,0.4);
+}
+.hero-links{
+    margin-top: 20px;
+}
+.hero-links a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+.hero-links a:hover{
+    background-color: aliceblue;
+    color: gray;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+}
